@@ -49,9 +49,9 @@ const citySchema = new mongoose.Schema({
     type: String
   },
   // one to many with restaurant_type
-  city_restaurant_types: [{
+  restaurant_types: [{
     type: mongoose.Schema.Types.ObjectId,
-    refPath: 'cityrestauranttype'
+    refPath: 'city_restaurant_types__restaurant_type_cities'
   }]
 })
 

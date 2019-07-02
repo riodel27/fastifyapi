@@ -17,4 +17,4 @@ const cityRestaurantTypeSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('cityrestauranttype', cityRestaurantTypeSchema, 'cityrestauranttype')
+module.exports = mongoose.model('city_restaurant_types__restaurant_type_cities', cityRestaurantTypeSchema, 'city_restaurant_types__restaurant_type_cities')
